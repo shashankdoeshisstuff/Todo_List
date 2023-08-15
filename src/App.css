@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #D4F1F4;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #05445E;
+}
+
+/* Add Item Styles */
+
+.addItem {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 420px;
+    color: #05445E;
+    border-color:#75E6DA;
+}
+.addItem label {
+    background-color: #75E6DA;
+    padding: 5px 8px;
+    position: absolute;
+    border-radius: 6px 0 0 6px ;
+}
+
+.input {
+    border: none;
+    border-radius: 6px;
+}
+
+.addInput {
+    padding-left: 42px;
+    width: 376px;
+    height: 32px;
+}
+
+.editInput {
+    padding-left: 12px;
+    width: 140px;
+    height: 28px;
+}
+
+
+
+/* List Option Style */
+
+.ListOption {
+    display: flex;
+    gap: 24px;
+}
+
+.ListOption button {
+    width: 120px;
+}
+
+/* Task List style */
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list{
+    display: flex;
+    margin-left: -42px;
+    width: 380px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border: 2px solid #75E6DA;
+    border-radius: 12px;
+}
+
+.list-func {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+/* delete func of list */
+
+.delete-func 
+{
+    display: flex;
+    gap: 24px;
+}
+
+/* Button Styles */
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* list button */
+
+.listBtn {
+    font-size: x-large;
+    padding: 0;
+    background: transparent;
+}
+
+.deleteBtn:hover {
+    color: red;
+}
+
+.editBtn:hover {
+    color: orange;
+}
+.tickBtn:hover {
+    color: green;
+}
+
+/* blue buttons */
+
+.blueBtn {
+    color: #05445E;
+    background: #75E6DA;
+}
+
+.blueBtn:hover {
+    background: transparent;
+    border: 2px solid  #75E6DA;
+    padding: 6px;
+}
+
+/* red button */
+
+.redBtn {
+    padding: 12px 42px;
+    background: #FF8A8A;
+    color: #750000;
+}
+.redBtn:hover {
+    padding: 10px 40px;
+    background: transparent;
+    border: 2px solid #FF8A8A;
+    color: #750000;
+}
