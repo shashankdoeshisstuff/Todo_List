@@ -1,5 +1,5 @@
 Visit Deployed Project here => 
-[https://monumental-pasca-ddc05f.netlify.app](https://practicetodo-list.netlify.app/)
+https://practicetodo-list.netlify.app
 
 
 ![Screenshot from 2023-08-15 02-43-42](https://github.com/shashankgitrepos/Todo_List/assets/69541174/cb05dd9d-bcd6-4d09-a641-c4315e26bcc6)
