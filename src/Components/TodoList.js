@@ -11,7 +11,7 @@ const TodoList = () => {
     const handleTodoList = task.taskList.map((List, index) => {
         if (List.done !== true) {
             return (
-                <div className='list'>
+                <div className='list' key={index}>
                     {<EditItem
                         index={index}
                         item={List.item}

@@ -17,7 +17,6 @@ const AddItem = () => {
                 done: false,
             });
         }
-    console.log(task.taskList);
     }
 
     return (

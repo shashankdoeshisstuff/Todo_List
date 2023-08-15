@@ -8,7 +8,7 @@ const TaskList = () => {
   const task = useContext(ListContext);
 
   const handleTasklist = task.taskList.map((List, index) =>
-    <div className='list'>
+    <div className='list' key={index}>
       {<EditItem 
         index={index}
         item={List.item}

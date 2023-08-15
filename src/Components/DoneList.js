@@ -10,7 +10,7 @@ const DoneList = () => {
     const handleDoneList = task.taskList.map((List, index) => {
         if (List.done === true) {
             return (
-                <div className='list'>
+                <div className='list' key={index}>
                     <li key={index}>{List.item}</li>
                     <div className='list-func'>
                     <button
